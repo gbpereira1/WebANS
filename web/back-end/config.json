@@ -1,0 +1,4 @@
+﻿{
+    "connectionString": "mongodb://localhost/node_mongo_back_end",
+    "secret": "ABRACADABRA PÉ NA COVA"
+}

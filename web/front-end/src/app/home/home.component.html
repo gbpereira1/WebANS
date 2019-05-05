@@ -1,0 +1,16 @@
+﻿<h1>Olá {{currentUser.firstName}}!</h1>
+<p>Você está logado no sistema Web!</p>
+
+<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+    <button type="button" class="btn btn-primary btn-lg"  (click)="btnClickRegisterUser()"> Cadastrar funcionário</button>
+    <button type="button" class="btn btn-secondary btn-lg" (click) = "btnClickListUser()">Visualizar funcionários</button>
+</div>
+
+
+<!--<h3>All registered users:</h3>
+<ul>
+    <li *ngFor="let user of users">
+        {{user.username}} ({{user.firstName}} {{user.lastName}})
+        - <a (click)="deleteUser(user.id)" class="text-danger">Delete</a>
+    </li>
+</ul>-->
